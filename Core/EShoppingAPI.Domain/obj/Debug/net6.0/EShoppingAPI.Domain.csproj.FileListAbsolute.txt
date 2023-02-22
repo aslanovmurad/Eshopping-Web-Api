@@ -1,0 +1,12 @@
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\bin\Debug\net6.0\EShoppingAPI.Domain.deps.json
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\bin\Debug\net6.0\EShoppingAPI.Domain.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\bin\Debug\net6.0\EShoppingAPI.Domain.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\refint\EShoppingAPI.Domain.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\EShoppingAPI.Domain.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Core\EShoppingAPI.Domain\obj\Debug\net6.0\ref\EShoppingAPI.Domain.dll

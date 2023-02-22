@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File0.png",
+      "PackagePath": "staticwebassets\\photo-images\\File0.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File1.png",
+      "PackagePath": "staticwebassets\\photo-images\\File1.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EShoppingAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.EShoppingAPI.API.props",
+      "PackagePath": "build\\EShoppingAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.EShoppingAPI.API.props",
+      "PackagePath": "buildMultiTargeting\\EShoppingAPI.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.EShoppingAPI.API.props",
+      "PackagePath": "buildTransitive\\EShoppingAPI.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

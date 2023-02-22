@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Infrastructure.deps.json
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Infrastructure.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Infrastructure.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.AssemblyInfo.cs
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\refint\EShoppingAPI.Infrastructure.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\ref\EShoppingAPI.Infrastructure.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Application.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Domain.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Application.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\bin\Debug\net6.0\EShoppingAPI.Domain.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.Infrastructure\obj\Debug\net6.0\EShoppingAPI.Infrastructure.csproj.CopyComplete
