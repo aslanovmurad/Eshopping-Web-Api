@@ -1,0 +1,17 @@
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.SignalR.deps.json
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.SignalR.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.SignalR.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.Application.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.Domain.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.Application.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\bin\Debug\net6.0\EShoppingAPI.Domain.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.AssemblyInfo.cs
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.csproj.CopyComplete
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\refint\EShoppingAPI.SignalR.dll
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\EShoppingAPI.SignalR.pdb
+C:\Users\User\Desktop\EShoppingAPI\EShoppingAPI\Infrastructure\EShoppingAPI.SignalR\obj\Debug\net6.0\ref\EShoppingAPI.SignalR.dll

@@ -12,7 +12,8 @@ namespace EShoppingAPI.Domain.Entities
         public string Name { get; set; }
         public int Stock { get; set; }
         public float Price { get; set; }
-        public ICollection<Order> orders { get; set; }
+        //public ICollection<Order> orders { get; set; }
         public ICollection<ProductImageFile> productImageFiles { get; set; }
+        public ICollection<BasketItem> BasketItems { get; set; }
     }
 }

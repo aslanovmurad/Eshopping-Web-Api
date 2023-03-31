@@ -6,6 +6,7 @@ using EShoppingAPI.Persistence.Context;
 using EShoppingAPI.Persistence.Repositories;
 using EShoppingAPI.Persistence.Repositories.File;
 using EShoppingAPI.Persistence.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -28,7 +29,8 @@ namespace EShoppingAPI.Persistence
                 op.Password.RequireDigit = false;
                 op.Password.RequireLowercase = false;
                 op.Password.RequireUppercase = false;
-            }).AddEntityFrameworkStores<EShoppingAPIDbContext>();
+            }).AddEntityFrameworkStores<EShoppingAPIDbContext>()
+            .AddDefaultTokenProviders();
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
             services.AddScoped<IOrderReadRepository, OrderReadRepository>();
@@ -41,12 +43,16 @@ namespace EShoppingAPI.Persistence
             services.AddScoped<IFileWriteRepository, FileWriteRepository>();
             services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
             services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
-
-
+            services.AddScoped<IBasketWriteRepository, BasketWriteRepository>();
+            services.AddScoped<IBasketReadRepository, BasketReadRepository>();
+            services.AddScoped<IBasketItemWriteRepository, BasketItemWriteRepository>();
+            services.AddScoped<IBasketItemReadRepository, BasketItemReadRepository>();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AutherService>();
             services.AddScoped<IExternalAuthentication, AutherService>();
             services.AddScoped<IInternalAuthentication, AutherService>();
+            services.AddScoped<IBasketService, BasketService>();
+            services.AddScoped<IOrderService, OrderService>();
         }
     }
 }

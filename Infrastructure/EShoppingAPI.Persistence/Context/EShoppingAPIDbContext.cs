@@ -24,7 +24,22 @@ namespace EShoppingAPI.Persistence.Context
         public DbSet<Domain.Entities.File> files { get; set; }
         public DbSet<ProductImageFile> productImageFiles { get; set; }
         public DbSet<InvoiceFile> invoiceFiles { get; set; }
+        public DbSet<Basket> Baskets { get; set; }
+        public DbSet<BasketItem> BasketItems { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Order>()
+                .HasKey(b => b.Id);
+            builder.Entity<Order>()
+                .HasIndex(o => o.OrderCode)
+                .IsUnique();
+            builder.Entity<Basket>()
+                .HasOne(b => b.Order)
+                .WithOne(o => o.Basket)
+                .HasForeignKey<Order>(b => b.Id);
+            base.OnModelCreating(builder);
+        }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

@@ -1,12 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File0.png",
-      "PackagePath": "staticwebassets\\photo-images\\File0.png"
-    },
-    {
-      "Id": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File1.png",
-      "PackagePath": "staticwebassets\\photo-images\\File1.png"
+      "Id": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File0",
+      "PackagePath": "staticwebassets\\photo-images"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EShoppingAPI.API.Microsoft.AspNetCore.StaticWebAssets.props",

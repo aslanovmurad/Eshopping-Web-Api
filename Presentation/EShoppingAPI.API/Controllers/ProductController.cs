@@ -1,4 +1,5 @@
 ﻿using EShoppingAPI.Application.Abstraction.Storage;
+using EShoppingAPI.Application.Features.Commands.ProductImageFile.ChangeShowcaseImage;
 using EShoppingAPI.Application.Features.Commants.Product.CreateProduct;
 using EShoppingAPI.Application.Features.Commants.Product.RemoveProduct;
 using EShoppingAPI.Application.Features.Commants.Product.UpdateProduct;
@@ -23,7 +24,6 @@ namespace EShoppingAPI.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProductController : ControllerBase
     {
         private readonly IProductWriteRepository _productWriteRepository;
@@ -71,24 +71,28 @@ namespace EShoppingAPI.API.Controllers
             return Ok(getByIdProductQueryRespons);
         }
         [HttpPost]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Post(CreateProductCommantRequest createProductCommantRequest)
         {
             CreateProductCommantRespons respons = await _mediator.Send(createProductCommantRequest);
             return StatusCode((int)HttpStatusCode.Created);
         }
         [HttpPut]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Put([FromBody]UpdateProductCommentRequest updateProductCommentRequest)
         {
             UpdateProductCommentRespons respons = await _mediator.Send(updateProductCommentRequest);
             return Ok();
         }
         [HttpDelete("{id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Delete([FromHeader]RemoveProductCommentRequest removeProductCommentRequest) 
         {
             RemoveProductCommentRespons respons = await _mediator.Send(removeProductCommentRequest);
             return Ok();
         }
         [HttpPost("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Upload([FromQuery]UpdateProductImageFileCommentRequest updateProductImageFileCommentRequest)
         {
             updateProductImageFileCommentRequest.Files = Request.Form.Files;
@@ -96,17 +100,26 @@ namespace EShoppingAPI.API.Controllers
             return Ok();
         }
         [HttpGet("[action]/{id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> GetProductImage([FromRoute]GetProductImageFileQueryRequest getProductImageFileQueryRequest)
         {
             List<GetProductImageFileQueryRespons> respons = await _mediator.Send(getProductImageFileQueryRequest);
             return Ok(respons);
         }
         [HttpDelete("[action]/{id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> DeleteProductImage([FromRoute]RemoveProductImageFileCommentRequest removeProductImageFileCommentRequest, [FromQuery] string imageId)
         {
             removeProductImageFileCommentRequest.imageId = imageId;
             RemoveProductImageFileCommentRespons respons = await _mediator.Send(removeProductImageFileCommentRequest);
             return Ok();
+        }
+        [HttpGet("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+        public async Task<IActionResult> ChangeShowcaseImage([FromQuery]ChangeShowcaseImageCommandRequest changeShowcaseImageCommandRequest)
+        {
+          ChangeShowcaseImageCommandRespons respons = await _mediator.Send(changeShowcaseImageCommandRequest);
+            return Ok(respons);
         }
     }
 }

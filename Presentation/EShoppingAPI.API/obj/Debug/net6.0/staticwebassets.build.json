@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "rjJ5sQMSz8+qDnE99RU8h1apCUkTv0/mg7VN6IlJWXI=",
+  "Hash": "iZH7xw5kEMxrQWUD/+Rc3l2Fv1UfmoKff3EVe85xQuY=",
   "Source": "EShoppingAPI.API",
   "BasePath": "_content/EShoppingAPI.API",
   "Mode": "Default",
@@ -15,40 +15,5 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File0.png",
-      "SourceId": "EShoppingAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\",
-      "BasePath": "_content/EShoppingAPI.API",
-      "RelativePath": "photo-images/File0.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photo-images\\File0.png"
-    },
-    {
-      "Identity": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\photo-images\\File1.png",
-      "SourceId": "EShoppingAPI.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\EShoppingAPI\\EShoppingAPI\\Presentation\\EShoppingAPI.API\\wwwroot\\",
-      "BasePath": "_content/EShoppingAPI.API",
-      "RelativePath": "photo-images/File1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\photo-images\\File1.png"
-    }
-  ]
+  "Assets": []
 }

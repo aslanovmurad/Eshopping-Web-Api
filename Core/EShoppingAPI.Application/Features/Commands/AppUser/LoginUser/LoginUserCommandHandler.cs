@@ -23,7 +23,7 @@ namespace EShoppingAPI.Application.Features.Commants.AppUser.LoginUser
 
         public async Task<LoginUserCommandRespons> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
         {
-            var token = await _authService.LoginAsync(request.UserNameOrEmail, request.Password, 15);
+            var token = await _authService.LoginAsync(request.UserNameOrEmail, request.Password, 900);
             return new()
             {
                 Token = token

@@ -2,7 +2,6 @@
 using EShoppingAPI.Application.Abstraction.Token;
 using EShoppingAPI.Application.DTOs;
 using EShoppingAPI.Domain.Entities.Identity;
-using Google.Apis.Auth;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -24,7 +23,7 @@ namespace EShoppingAPI.Application.Features.Commands.AppUser.GoogleLogin
 
         public async Task<GoogleLoginCommandRespons> Handle(GoogleLoginCommandRequest request, CancellationToken cancellationToken)
         {
-            var token = await _authService.GoogleLoginAsync(request.IdToken, 15);
+            var token = await _authService.GoogleLoginAsync(request.IdToken, 900);
             return new()
             {
                 Token = token

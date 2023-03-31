@@ -1,0 +1,30 @@
+﻿using EShoppingAPI.Application.Abstraction.Services;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace EShoppingAPI.Application.Features.Commands.Basket.AddItemToBasket
+{
+    public class AddItemToBasketCommandHandler : IRequestHandler<AddItemToBasketCommandRequest, AddItemToBasketCommandRespons>
+    {
+        readonly IBasketService _basketService;
+
+        public AddItemToBasketCommandHandler(IBasketService basketService)
+        {
+            _basketService = basketService;
+        }
+
+        public async Task<AddItemToBasketCommandRespons> Handle(AddItemToBasketCommandRequest request, CancellationToken cancellationToken)
+        {
+            await  _basketService.AddItemToBasketAsync(new()
+            {
+                ProductId = request.ProductId,
+                Quantity = request.Quentity
+            });
+            return new();
+        }
+    }
+}

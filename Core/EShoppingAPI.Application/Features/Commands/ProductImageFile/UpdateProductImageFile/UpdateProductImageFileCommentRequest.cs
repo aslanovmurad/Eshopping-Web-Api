@@ -11,6 +11,7 @@ namespace EShoppingAPI.Application.Features.Commants.ProductImageFile.UpdateProd
     public class UpdateProductImageFileCommentRequest:IRequest<UpdateProductImageFileCommentRespons>
     {
         public string Id { get; set; }
+
         public IFormFileCollection? Files { get; set; }
     }
 }

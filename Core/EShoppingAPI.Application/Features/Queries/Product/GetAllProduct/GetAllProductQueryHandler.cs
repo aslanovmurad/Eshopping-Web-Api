@@ -1,6 +1,7 @@
 ﻿using EShoppingAPI.Application.Repositories;
 using EShoppingAPI.Application.RequestParameters;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,14 +22,15 @@ namespace EShoppingAPI.Application.Features.Queries.Product.GetAllProduct
         public async Task<GetAllProductQueryResponse> Handle(GetAllProductQueryRequest request, CancellationToken cancellationToken)
         {
             var tolalCount = _productReadRepository.Getall(false).Count();
-            var product = _productReadRepository.Getall(false).Skip(request.Page * request.Size).Take(request.Size).Select(p => new
+            var product = _productReadRepository.Getall(false).Skip(request.Page * request.Size).Take(request.Size).Include(p=>p.productImageFiles).Select(p => new
             {
                 p.Id,
                 p.Price,
                 p.Name,
                 p.Stock,
                 p.CreateDate,
-                p.UpdateDate
+                p.UpdateDate,
+                p.productImageFiles
             }).ToList();
 
             return new()

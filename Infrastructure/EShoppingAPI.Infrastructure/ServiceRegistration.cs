@@ -1,6 +1,8 @@
-﻿using EShoppingAPI.Application.Abstraction.Storage;
+﻿using EShoppingAPI.Application.Abstraction.Services;
+using EShoppingAPI.Application.Abstraction.Storage;
 using EShoppingAPI.Application.Abstraction.Token;
 using EShoppingAPI.Infrastructure.Enums;
+using EShoppingAPI.Infrastructure.Services;
 using EShoppingAPI.Infrastructure.Services.Storage;
 using EShoppingAPI.Infrastructure.Services.Storage.Azure;
 using EShoppingAPI.Infrastructure.Services.Storage.Local;
@@ -20,6 +22,7 @@ namespace EShoppingAPI.Infrastructure
         {
             serviceDescriptors.AddScoped<IStorageServic, StorageSarvic>();
             serviceDescriptors.AddScoped<ITokenHandler,TokenHandler>();
+            serviceDescriptors.AddScoped<IMailService, MailService>();
         }
         public static void AddStorage<T>(this IServiceCollection serviceDescriptors) where T : Storage, IStorage
         {
